@@ -259,6 +259,7 @@ background-size: cover;
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
+margin-bottom: 8px;
 }
 
 /* =============== секція 3 індекс ================ */
@@ -326,7 +327,7 @@ width: calc((100% - 48px) / 3);
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 8px;
+    
     
 }
 
@@ -424,10 +425,10 @@ width: calc((100% - 48px) / 3);
     border-bottom: 1px solid #E7E9FC;
     }
 
-    .img-portfolio:hover,
-        .img-portfolio:focus {
-            border: 1px solid #F4F4FD;
-                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.img-portfolio:hover,
+.img-portfolio:focus {
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         }
 
 
@@ -456,7 +457,7 @@ width: calc((100% - 48px) / 3);
     color: #4D5AE5;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 16px;     
+      
 }
 
 .footer-text {
@@ -465,6 +466,7 @@ width: calc((100% - 48px) / 3);
     line-height: 1.5;
     text-align: Left;  
     vertical-align: Top;
+    margin-top: 16px;
     /* width: 265px; */
 
 }
@@ -482,6 +484,11 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em; 
+
+}
+
+.list-footer {
+    margin-top: 16px;
 }
 
 .icon-link-footer {
