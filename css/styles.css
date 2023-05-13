@@ -264,7 +264,7 @@ img {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
-margin-bottom: 8px;
+
 }
 
 /* =============== секція 3 індекс ================ */
@@ -318,14 +318,14 @@ width: calc((100% - 48px) / 3);
     text-align: center;
 }
 
-/* .icon-bg {
-    width: 40px;
-    height: 40px;
-} */
-
-/* .social-link-item {
-    display: flex;
-} */
+.team-text {
+    font-size: inherit;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 8px;
+}
 
 .social-link-list {
     display: flex;
@@ -444,7 +444,7 @@ width: calc((100% - 48px) / 3);
 }
 .link-block:hover,
 .link-block:focus {
-     border: 1px solid #F4F4FD;
+   
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -515,7 +515,7 @@ margin-bottom: 16px;
 }
 
 .footer-icon {
-    fill: #f4f4fd;
+    fill: #f4f4fd; 
 }
 
 .icon-link-footer {
