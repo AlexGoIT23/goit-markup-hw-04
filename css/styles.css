@@ -455,6 +455,7 @@ width: calc((100% - 48px) / 3);
 
 .footer-main {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-styles {
@@ -490,24 +491,31 @@ width: calc((100% - 48px) / 3);
 
 }
 
-
-.footer-link {
-    margin-left: 120px;
+.footer-logo-section {
+    margin-right: 120px;
 }
 
 .footer-title {
-    display: inline;
+    display: block;
    font-family: 'Roboto', sans-serif;
    color: #FFFFFF;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.02em; 
+letter-spacing: 0.02em;
+margin-bottom: 16px; 
 
 }
 
 .list-footer {
-    margin-top: 16px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+}
+
+.footer-icon {
+    fill: #f4f4fd;
 }
 
 .icon-link-footer {
